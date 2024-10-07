@@ -4,7 +4,7 @@ This repository contains a collection of algorithms and data structures implemen
 Tutorials from Structy were used as a reference for the implementation of these algorithms.  
 The code is tested and documented. 
 
-## Algorithms Included;
+## Algorithms Included:
 
 - [x] Max Value
 - [x] is Prime
