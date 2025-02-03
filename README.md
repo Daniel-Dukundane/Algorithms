@@ -8,6 +8,7 @@ The code is tested and documented.
 
 - [x] Max Value
 - [x] is Prime
+- [x] Anagrams
 
 
 
