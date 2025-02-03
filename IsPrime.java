@@ -1,3 +1,19 @@
+/**
+ * This class includes a method to check if a number is prime.
+ *
+ * @author Daniel Dukundane
+ * @version 1.0
+ * File: IsPrime.java
+ * Created: Feb 2025
+ * Tutorial: Structy Course
+ *
+ * Description: This class includes a method to determine if a given number is a prime number.
+ * The method checks if the number is less than or equal to 1, returning false in that case.
+ * For numbers greater than 1, it checks divisibility from 2 up to the square root of the number.
+ * If any divisor is found, the number is not prime; otherwise, it is prime.
+ */
+
+import java.lang.Math;
 public class IsPrime {
     
         public static void main(String[] args) {
@@ -10,21 +26,14 @@ public class IsPrime {
         }
     
         public static boolean isPrime(int number) {
-            // If the number is less than 2, it is not prime
-               if(number < 2){
-                return false;
-              }
-
-            // Loop through the numbers from 2 to number-1
-            // If the number is divisible by any of these numbers, it is not prime
-            for (int i = 2; i <= number-1 ; i++){
-           
-              if(number % i == 0){
+            if (number <= 1) {
+              return false;
+            }
+            for (int i = 2; i <= Math.sqrt(number); i++) {
+              if (number % i == 0) {
                 return false;
               }
             }
-            
-            // If the number is not divisible by any of the numbers, it is prime
             return true;
           }
 }

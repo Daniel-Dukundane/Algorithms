@@ -1,5 +1,16 @@
 /**
- * MaxValue
+ * This class includes a method to find the maximum value in an array of doubles.
+ *
+ * @author Daniel Dukundane
+ * @version 1.0
+ * File: MaxValue.java
+ * Created: Feb 2025
+ * Tutorial: Structy Course
+ *
+ * Description: This class contains a method to determine the maximum value in a given array of doubles.
+ * The method initializes the maximum value to the smallest possible double value.
+ * It then iterates through the array, updating the maximum value whenever a larger value is found.
+ * Finally, it returns the maximum value found in the array.
  */
 public class MaxValue {
 
